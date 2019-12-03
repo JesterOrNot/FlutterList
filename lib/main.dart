@@ -7,6 +7,7 @@ class MainActivity extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "FlutterList",
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Padding(
@@ -20,7 +21,7 @@ class MainActivity extends StatelessWidget {
           child: Text(
             "W.I.P.",
             style:
-                TextStyle(fontSize: 100.0, color: Color.fromRGBO(8, 0, 255, 2)),
+                TextStyle(fontSize: 100.0, color: Color.fromRGBO(8, 0, 255, 3)),
           ),
         ))),
         floatingActionButton: FloatingActionButton(
