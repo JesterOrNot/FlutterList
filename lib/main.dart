@@ -18,12 +18,11 @@ class MainActivity extends StatelessWidget {
         body: Center(
             child: new ListTile(
                 title: Center(
-          child: Text(
-            "W.I.P.",
-            style:
-                TextStyle(fontSize: 100.0, color: Color.fromRGBO(8, 0, 255, 3)),
-          ),
-        ))),
+                    child: Column(
+          children: <Widget>[
+            new MyCard(title: Text("WIP")),
+          ],
+        )))),
         floatingActionButton: FloatingActionButton(
           child: Icon(
             Icons.add,
@@ -36,5 +35,23 @@ class MainActivity extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+class MyCard extends StatelessWidget {
+  MyCard({this.title});
+  final Widget title;
+  @override
+  Widget build(BuildContext context) {
+    return new Container(
+        padding: new EdgeInsets.only(bottom: 30.0),
+        child: new Card(
+            child: new Container(
+          padding: new EdgeInsets.all(45.0),
+          child: new Column(children: <Widget>[
+            this.title,
+          ]),
+          color: Colors.teal,
+        )));
   }
 }
