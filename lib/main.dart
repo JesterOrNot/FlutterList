@@ -24,7 +24,9 @@ class MainActivity extends StatelessWidget {
           ),
         ))),
         floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.add,),
+          child: Icon(
+            Icons.add,
+          ),
           onPressed: () {
             print('Clicked');
           },
