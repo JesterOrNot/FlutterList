@@ -31,6 +31,7 @@ class MainActivity extends StatelessWidget {
             print('Clicked');
           },
           backgroundColor: Colors.tealAccent[700],
+          tooltip: "New item",
         ),
       ),
     );
