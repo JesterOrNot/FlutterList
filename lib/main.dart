@@ -20,7 +20,12 @@ class MainActivity extends StatelessWidget {
                 title: Center(
                     child: Column(
           children: <Widget>[
-            new MyCard(title: Text("WIP")),
+            new MyCard(
+                title: new Text(
+              "Do History Study Guide",
+              style: new TextStyle(fontSize: 30.0),
+              softWrap: true,
+            )),
           ],
         )))),
         floatingActionButton: FloatingActionButton(
@@ -44,10 +49,10 @@ class MyCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Container(
-        padding: new EdgeInsets.only(bottom: 30.0),
+        padding: new EdgeInsets.all(40.0),
         child: new Card(
             child: new Container(
-          padding: new EdgeInsets.all(45.0),
+          padding: new EdgeInsets.only(left: 120.0, right: 120.0),
           child: new Column(children: <Widget>[
             this.title,
           ]),
