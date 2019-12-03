@@ -20,7 +20,7 @@ class MainActivity extends StatelessWidget {
           child: Text(
             "WIP",
             style:
-                TextStyle(fontSize: 18.0, color: Color.fromRGBO(8, 0, 255, 2)),
+                TextStyle(fontSize: 100.0, color: Color.fromRGBO(8, 0, 255, 2)),
           ),
         ))),
         floatingActionButton: FloatingActionButton(
