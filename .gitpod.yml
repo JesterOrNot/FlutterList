@@ -5,7 +5,8 @@ ports:
     onOpen: open-preview
   - port: 5900
   - port: 6080
-
+tasks:
+  - init: flutter run --web-port 8080
 vscode:
   extensions:
     - Dart-Code.flutter@3.6.0:bAElIiRvpBSK2AT2+PDj0w==
