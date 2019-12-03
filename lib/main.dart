@@ -23,6 +23,13 @@ class MainActivity extends StatelessWidget {
                 TextStyle(fontSize: 18.0, color: Color.fromRGBO(8, 0, 255, 2)),
           ),
         ))),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add,),
+          onPressed: () {
+            print('Clicked');
+          },
+          backgroundColor: Colors.teal,
+        ),
       ),
     );
   }
