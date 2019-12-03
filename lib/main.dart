@@ -18,7 +18,7 @@ class MainActivity extends StatelessWidget {
             child: new ListTile(
                 title: Center(
           child: Text(
-            "WIP",
+            "W.I.P.",
             style:
                 TextStyle(fontSize: 100.0, color: Color.fromRGBO(8, 0, 255, 2)),
           ),
@@ -31,6 +31,7 @@ class MainActivity extends StatelessWidget {
             print('Clicked');
           },
           backgroundColor: Colors.tealAccent[700],
+          tooltip: "New item",
         ),
       ),
     );
