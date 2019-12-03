@@ -5,7 +5,8 @@ ports:
     onOpen: open-preview
   - port: 5900
   - port: 6080
+
 vscode:
   extensions:
-    - Dart-Code.dart-code@3.5.1:W6zqgIED1gxtkBH/pbfGXA==
-    - Dart-Code.flutter@3.5.1:0FyuzXye7dV19PNst3+Llg==
+    - Dart-Code.flutter@3.6.0:bAElIiRvpBSK2AT2+PDj0w==
+    - Dart-Code.dart-code@3.6.0:OIKJQXmfWHoIMVCiWrcLsQ==
