@@ -5,7 +5,6 @@ void main() => runApp(MainActivity());
 class MainActivity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final _biggerFont = const TextStyle(fontSize: 18.0);
     return MaterialApp(
       title: "FlutterList",
       home: Scaffold(
@@ -20,7 +19,8 @@ class MainActivity extends StatelessWidget {
                 title: Center(
           child: Text(
             "WIP",
-            style: _biggerFont,
+            style:
+                TextStyle(fontSize: 18.0, color: Color.fromRGBO(8, 0, 255, 2)),
           ),
         ))),
       ),
