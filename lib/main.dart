@@ -30,7 +30,7 @@ class MainActivity extends StatelessWidget {
           onPressed: () {
             print('Clicked');
           },
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.tealAccent[700],
         ),
       ),
     );
